@@ -1,6 +1,6 @@
 # Unconventioanl Materials （Unconv-Mat）
 
-# 1. Standize the POSCAR (e.g. Ca2N)
+# 1. Standardize the POSCAR (e.g. Ca2N)
 
 $$ phonopy  --tolerance 0.01 --symmetry -c POSCAR > phonopy.out
 
