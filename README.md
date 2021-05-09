@@ -66,8 +66,11 @@ $$ pos2aBR > aBR.out
 -----aBR.out-----
 
 
-# 2. Run scf and band calculations in VASP for Maximial High-symmetry k-points (POTCAR: PAW_PBE Ca_sv 06Sep2000; PAW_PBE N 08Apr2002) 
-$$ irvsp2 -sg 166 -nb 9 13 > outir2   !! generating tqc.txt 
+# 2. Run scf and band calculations in VASP for Maximial High-symmetry k-points 
+
+(POTCAR: PAW_PBE Ca_sv 06Sep2000; PAW_PBE N 08Apr2002) 
+
+$$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt *)
 
 -----tqc.txt-----
 
@@ -83,7 +86,7 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2   !! generating tqc.txt
   
 -----tqc.txt----
 
-# 3. Solving the BR decomposition for the set of energy bands.
+# 3. Solving the BR decomposition for the set of energy bands
 
 $$ Python BR_decomp.py 
 
