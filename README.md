@@ -31,7 +31,7 @@ $$ pos2aBR > aBR.out
  
  11     0.000000    0.000000    0.000000
  
- 12  \\
+ 12  \\ \\
  
  13   SN  Mult. Wyck. Atom  s    p    d  Wyck. Name
  
@@ -39,7 +39,7 @@ $$ pos2aBR > aBR.out
  
  15     2    1    9    7    2    3    0    3a   N
  
- 16  \\
+ 16  \\ \\
  
  17   SN  Orb. @ Site     Symm.
  
@@ -81,8 +81,10 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2   !! generating tqc.txt
   
   5 L : L1+ (1); L2- (1); L2- (1); L1- (1); L2- (1); [5]
   
-----------------
+-----tqc.txt----
 
 # 3. Solving the BR decomposition for the set of energy bands.
+
 $$ Python BR_decomp.py 
+
   A2u@3a + Eu@3a + A1g@3b
