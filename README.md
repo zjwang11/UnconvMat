@@ -66,17 +66,23 @@ $$ pos2aBR > aBR.out
 -----aBR.out-----
 
 
-# 2. Run scf and band calculations in VASP for Maximial High-symmetry k-points.
-$$ irvsp2 -sg xx [-nb xx xx] > outir2   !! generating tqc.txt 
+# 2. Run scf and band calculations in VASP for Maximial High-symmetry k-points (POTCAR: PAW_PBE Ca_sv 06Sep2000; PAW_PBE N 08Apr2002) 
+$$ irvsp2 -sg 166 -nb 9 13 > outir2   !! generating tqc.txt 
 
 -----tqc.txt-----
-  1 Computed bands:  1 - 13
-  2 GM: GM1+(1); GM2-(1); GM1+(1); GM3+(2); GM2-(1); GM3-(2); GM1+(1); GM2-(1); GM1+(1); GM3-(2); [13]
-  3 T : T1+ (1); T2- (1); T1+ (1); T3+ (2); T2- (1); T3- (2); T1+ (1); T2- (1); T3- (2); T2- (1); [13]
-  4 F : F2- (1); F1+ (1); F1+ (1); F2- (1); F1- (1); F2- (1); F1+ (1); F2+ (1); F1+ (1); F2- (1); F2- (1); F1- (1); F1+ (1); [13]
-  5 L : L2- (1); L1+ (1); L1+ (1); L2- (1); L1- (1); L2- (1); L1+ (1); L2+ (1); L1+ (1); L2- (1); L2- (1); L1- (1); L2- (1); [13]
+
+  1 Computed bands:  9 - 13
+  
+  2 GM: GM1+(1); GM2-(1); GM1+(1); GM3-(2); [5]
+  
+  3 T : T1+ (1); T2- (1); T3- (2); T2- (1); [5]
+  
+  4 F : F1+ (1); F2- (1); F2- (1); F1- (1); F1+ (1); [5]
+  
+  5 L : L1+ (1); L2- (1); L2- (1); L1- (1); L2- (1); [5]
+  
 ----------------
 
 # 3. Solving the BR decomposition for the set of energy bands.
 $$ Python BR_decomp.py 
-  A1@4e + E@4e + A1g@2b
+  A2u@3a + Eu@3a + A1g@3b
