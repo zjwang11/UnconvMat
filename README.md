@@ -1,4 +1,4 @@
-# Unconventioanl Materials （Unconv-Mat）
+# Unconventioanl Materials （UnconvMat）
 
 # 1. Standardize the POSCAR (e.g. Ca2N)
 
