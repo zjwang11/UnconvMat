@@ -4,6 +4,8 @@
 
 $$ phonopy  --tolerance 0.01 --symmetry -c POSCAR > phonopy.out
 
+$$ cp PPOSCAR POSCAR
+
 $$ pos2aBR > aBR.out
 
 
