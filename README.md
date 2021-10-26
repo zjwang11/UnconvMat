@@ -1,10 +1,8 @@
 # Unconventioanl Materials （Unconv. Mat.）
 
-# 1. Standardize the POSCAR and generate the aBRs (e.g. Ca2N)
+# 1. Standardize the PPOSCAR from phonopy and generate the aBRs (e.g. Ca2N)
 
 $$ phonopy  --tolerance 0.01 --symmetry -c POSCAR > phonopy.out
-
-$$ cp PPOSCAR POSCAR
 
 $$ pos2aBR > aBR.out
 
