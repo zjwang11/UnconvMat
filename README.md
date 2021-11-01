@@ -58,7 +58,7 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
 
 *--"tqc.data"--
 
-    166    4    5       # space group number, number of k-points, number of energy bands
+    166    4    5       # space group number, number of k-points, number of energy bands (nb)
     1  1  4  1  6       # k index, irrep index [nb]
     2  1  4  6  4
     4  1  4  4  2  1
