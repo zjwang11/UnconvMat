@@ -5,11 +5,11 @@ Refs: J. Gao, et al. https://arxiv.org/abs/2106.08035. <br>
       S. Nie, et al. "Application of topological quantum chemistry in electrides", Phys. Rev. B 103, 205133 (2021). <br>
       S. Nie, et al. "Six-fold Excitations in Electrides", Phys. Rev. Research 3, L012028 (2021).
 
-### 1. Standardize the PPOSCAR from phonopy and generate the aBRs (e.g. Ca2N)
+### 1. Standardize the POSCAR and generate the aBRs (e.g. Ca2N)
 
 $$ phonopy  --tolerance 0.01 --symmetry -c POSCAR > phonopy.out
 
-$$ pos2aBR > aBR.out
+$$ pos2aBR > aBR.out (converting PPOSCAR to POSCAR_std)
 
 
 --aBR.out--
@@ -46,6 +46,8 @@ $$ pos2aBR > aBR.out
 ### 2. Run scf and band calculations in VASP for maximial High-symmetry k-points (HSKPs)
 
 (POTCAR: PAW_PBE Ca_sv 06Sep2000; PAW_PBE N 08Apr2002) 
+
+$$ cp POSCAR_std POSCAR (for VASP calculations)
 
 $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
 
