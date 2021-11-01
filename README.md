@@ -63,7 +63,7 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
 
 # 3. Solving the aBR/eBR decomposition online 
 
-website: http://tm.iphy.ac.cn/UnconvMat.html <br> Ref: J. Gao, et al. https://arxiv.org/abs/2106.08035.
+Website: http://tm.iphy.ac.cn/UnconvMat.html <br> Ref: J. Gao, et al. https://arxiv.org/abs/2106.08035.
 
 $$ Paste "PPOSCAR" and "tqc.data" the website.
 
