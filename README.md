@@ -33,7 +33,7 @@ $$ pos2aBR > aBR.out
  
  12  \\ \\
  
- 13   SN  Mult. Wyck. Atom  s    p    d  Wyck. Name
+ 13   SN  Mult. Wyck. Atom  s    p    d  Wyck. Name <\br>
        1    2    7   20    2    6    0    6c   Ca
  
  15     2    1    9    7    2    3    0    3a   N
