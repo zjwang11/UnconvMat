@@ -8,19 +8,20 @@ $$ pos2aBR > aBR.out
 
 
 -----aBR.out-----
-                           166 R-3m
-                           The matrix Kc2p
+
+    166 R-3m
+    The matrix Kc2p
     0.666667   -0.333333   -0.333333
     0.333333    0.333333   -0.666667
     0.333333    0.333333    0.333333
- The matrix p2cR
-    1.000000    0.000000    1.000000
-   -1.000000    1.000000    1.000000
-    0.000000   -1.000000    1.000000
- Origin shift
+    The matrix p2cR
+       1.000000    0.000000    1.000000
+       -1.000000    1.000000    1.000000
+       0.000000   -1.000000    1.000000
+    Origin shift
     0.000000    0.000000    0.000000
- \\
-  SN  Mult. Wyck. Atom  s    p    d  Wyck. Name
+    \\
+    SN  Mult. Wyck. Atom  s    p    d  Wyck. Name
     1    2    7   20    2    6    0    6c   Ca
     2    1    9    7    2    3    0    3a   N
  \\
