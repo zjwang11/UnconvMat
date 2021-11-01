@@ -1,6 +1,6 @@
 # Unconventioanl Materials （Unconv. Mat.）
 
-# 1. Standardize the PPOSCAR from phonopy and generate the aBRs (e.g. Ca2N)
+### 1. Standardize the PPOSCAR from phonopy and generate the aBRs (e.g. Ca2N)
 
 $$ phonopy  --tolerance 0.01 --symmetry -c POSCAR > phonopy.out
 
@@ -38,7 +38,7 @@ $$ pos2aBR > aBR.out
                                     6  GM3-;GM3-; Eu ;     x,y
 
 
-# 2. Run scf and band calculations in VASP for maximial High-symmetry k-points (HSKPs)
+### 2. Run scf and band calculations in VASP for maximial High-symmetry k-points (HSKPs)
 
 (POTCAR: PAW_PBE Ca_sv 06Sep2000; PAW_PBE N 08Apr2002) 
 
@@ -61,7 +61,7 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
     4  1  4  4  2  1
     5  1  4  4  2  4
 
-# 3. Solving the aBR/eBR decomposition online 
+### 3. Solving the aBR/eBR decomposition for the set of energy bands online 
 
 Website: http://tm.iphy.ac.cn/UnconvMat.html <br> Ref: J. Gao, et al. https://arxiv.org/abs/2106.08035.
 
