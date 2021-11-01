@@ -61,7 +61,9 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
     4  1  4  4  2  1
     5  1  4  4  2  4
 
-# 3. Solving the aBR/eBR decomposition for the set of energy bands online <br> http://tm.iphy.ac.cn/UnconvMat.html
+# 3. Solving the aBR/eBR decomposition for the set of energy bands online 
+
+website: http://tm.iphy.ac.cn/UnconvMat.html <br> J. Gao, et al. https://arxiv.org/abs/2106.08035
 
 $$ Paste "PPOSCAR" and "tqc.data" online.
 
