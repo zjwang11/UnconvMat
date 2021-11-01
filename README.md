@@ -8,7 +8,6 @@ $$ pos2aBR > aBR.out
 
 
 --"aBR.out"--
-
        166 R-3m
     The matrix Kc2p
       0.666667   -0.333333   -0.333333
@@ -45,8 +44,7 @@ $$ pos2aBR > aBR.out
 $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt *)
 
   
---"tqc.txt"--
-      
+--"tqc.txt"--      
     Computed bands:  9 - 13
     GM: GM1+(1); GM2-(1); GM1+(1); GM3-(2); [5]
     T : T1+ (1); T2- (1); T3- (2); T2- (1); [5]
@@ -54,6 +52,11 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt *)
     L : L1+ (1); L2- (1); L2- (1); L1- (1); L2- (1); [5]
 
 --"tqc.data"--
+    Computed bands:  9 - 13
+    GM: GM1+(1); GM2-(1); GM1+(1); GM3-(2); [5]
+    T : T1+ (1); T2- (1); T3- (2); T2- (1); [5]
+    F : F1+ (1); F2- (1); F2- (1); F1- (1); F1+ (1); [5]
+    L : L1+ (1); L2- (1); L2- (1); L1- (1); L2- (1); [5]
 
 # 3. Solving the BR decomposition for the set of energy bands
 
