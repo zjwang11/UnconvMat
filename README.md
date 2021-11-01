@@ -9,42 +9,26 @@ $$ pos2aBR > aBR.out
 
 -----aBR.out-----
 
-    166 R-3m <br>
+    166 R-3m
     The matrix Kc2p
     0.666667   -0.333333   -0.333333
-  
-  4     0.333333    0.333333   -0.666667
-  
-  5     0.333333    0.333333    0.333333
-  
-  6  The matrix p2cR
-  
-  7     1.000000    0.000000    1.000000
-  
-  8    -1.000000    1.000000    1.000000
-  
-  9     0.000000   -1.000000    1.000000
-  
- 10  Origin shift
- 
- 11     0.000000    0.000000    0.000000
- 
- 12  \\ \\
- 
- 13   SN  Mult. Wyck. Atom  s    p    d  Wyck. Name <br>
-       1    2    7   20    2    6    0    6c   Ca
- 
- 15     2    1    9    7    2    3    0    3a   N
- 
- 16  \\ \\
- 
- 17   SN  Orb. @ Site     Symm.
- 
- 18    1  Ca-s @ 6c( 7)    3m(19) >>>   BCS  Int. Sch.      Basis
- 
- 19                                  1  GM1 ;GM1 ; A1 ;     z;x2+y2;z2
- 
- 20    1  Ca-p @ 6c( 7)    3m(19) >>>   BCS  Int. Sch.      Basis
+    0.333333    0.333333   -0.666667
+    0.333333    0.333333    0.333333
+    The matrix p2cR
+    1.000000    0.000000    1.000000
+    -1.000000    1.000000    1.000000
+    0.000000   -1.000000    1.000000
+    Origin shift
+    0.000000    0.000000    0.000000
+    \\ \\
+    SN  Mult. Wyck. Atom  s    p    d  Wyck. Name
+    1    2    7   20    2    6    0    6c   Ca
+    1    9    7    2    3    0    3a   N
+    \\ \\
+    SN  Orb. @ Site     Symm.
+    1  Ca-s @ 6c( 7)    3m(19) >>>   BCS  Int. Sch.      Basis
+                                   1  GM1 ;GM1 ; A1 ;     z;x2+y2;z2
+    1  Ca-p @ 6c( 7)    3m(19) >>>   BCS  Int. Sch.      Basis
  
  21                                  1  GM1 ;GM1 ; A1 ;     z;x2+y2;z2
  
