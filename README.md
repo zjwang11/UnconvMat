@@ -58,11 +58,11 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
 
 *--"tqc.data"--
 
-    Computed bands:  9 - 13
-    GM: GM1+(1); GM2-(1); GM1+(1); GM3-(2); [5]
-    T : T1+ (1); T2- (1); T3- (2); T2- (1); [5]
-    F : F1+ (1); F2- (1); F2- (1); F1- (1); F1+ (1); [5]
-    L : L1+ (1); L2- (1); L2- (1); L1- (1); L2- (1); [5]
+    166    4    5
+    1  1  4  1  6
+    2  1  4  6  4
+    4  1  4  4  2  1
+    5  1  4  4  2  4
 
 # 3. Solving the BR decomposition for the set of energy bands
 
