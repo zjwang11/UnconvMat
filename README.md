@@ -51,7 +51,7 @@ $$ cp POSCAR_std POSCAR (for VASP calculations)
 
 $$ run VASP
 
-$$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
+$$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data when using only maximal HSKPs \*)
 
 --tqc.txt--
 
