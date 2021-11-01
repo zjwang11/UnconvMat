@@ -65,7 +65,7 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
 
 website: http://tm.iphy.ac.cn/UnconvMat.html <br> Ref: J. Gao, et al. https://arxiv.org/abs/2106.08035.
 
-$$ Paste "PPOSCAR" and "tqc.data" online.
+$$ Paste "PPOSCAR" and "tqc.data" the website.
 
 $$ Press the button "BR" to solve the eBR and aBR decomposition.
 
