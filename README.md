@@ -68,5 +68,5 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
 
 $$ Python BR_decomp.py 
 
-  A1g@3a (N-s) + A2u@3a (N-Pz) + Eu@3a (N-Px,Py) + A1g@3b (hollow)
+  A1g@3a (N-s) + A2u@3a (N-Pz) + Eu@3a (N-Px,Py) + A1g@3b (an empty site)
   
