@@ -64,9 +64,9 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
     4  1  4  4  2  1
     5  1  4  4  2  4
 
-# 3. Solving the BR decomposition for the set of energy bands
+# 3. Solving the aBR decomposition for the set of energy bands
 
-$$ Python BR_decomp.py 
+$$ Paste "PPOSCAR" and "tqc.data" online (http://tm.iphy.ac.cn/UnconvMat.html)
 
   A1g@3a (N-s) + A2u@3a (N-Pz) + Eu@3a (N-Px,Py) + A1g@3b (an empty site)
   
