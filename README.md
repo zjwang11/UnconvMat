@@ -9,9 +9,8 @@ $$ pos2aBR > aBR.out
 
 -----aBR.out-----
 
-  1          166 R-3m
-  
-  2  The matrix Kc2p
+    166 R-3m <br>
+    The matrix Kc2p
   
   3     0.666667   -0.333333   -0.333333
   
