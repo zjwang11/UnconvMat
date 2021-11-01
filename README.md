@@ -8,9 +8,8 @@ $$ pos2aBR > aBR.out
 
 
 -----aBR.out-----
-
-         166 R-3m
- The matrix Kc2p
+                           166 R-3m
+                           The matrix Kc2p
     0.666667   -0.333333   -0.333333
     0.333333    0.333333   -0.666667
     0.333333    0.333333    0.333333
@@ -36,7 +35,6 @@ $$ pos2aBR > aBR.out
    2   N-p @ 3a( 9)   -3m(20) >>>   BCS  Int. Sch.      Basis
                                  4  GM2-;GM2-; A2u;     z
                                  6  GM3-;GM3-; Eu ;     x,y
- 
 -----aBR.out-----
 
 
