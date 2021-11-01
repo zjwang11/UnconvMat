@@ -8,7 +8,7 @@ $$ pos2aBR > aBR.out
 
 
 
-*--"aBR.out"--
+       *--aBR.out--
 
        166 R-3m
     The matrix Kc2p
@@ -45,8 +45,7 @@ $$ pos2aBR > aBR.out
 
 $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
 
-  
-*--"tqc.txt"--
+       *--tqc.txt--
 
     Computed bands:  9 - 13
     GM: GM1+(1); GM2-(1); GM1+(1); GM3-(2); [5]
@@ -55,8 +54,7 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
     L : L1+ (1); L2- (1); L2- (1); L1- (1); L2- (1); [5]
 
 
-
-*--"tqc.data"--
+       *--"tqc.data"--
 
     166    4    5       # space group number, number of k-points, number of energy bands (nb)
     1  1  4  1  6       # k index, irrep index [nb]
@@ -67,6 +65,7 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
 # 3. Solving the aBR/eBR decomposition for the set of energy bands
 
 $$ Paste "PPOSCAR" and "tqc.data" online (http://tm.iphy.ac.cn/UnconvMat.html).
+
 $$ Press the button "BR" to solve the eBR and aBR decomposition.
 
   A1g@3a (N-s) + A2u@3a (N-Pz) + Eu@3a (N-Px,Py) + A1g@3b (an empty site)
