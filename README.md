@@ -7,7 +7,8 @@ $$ phonopy  --tolerance 0.01 --symmetry -c POSCAR > phonopy.out
 $$ pos2aBR > aBR.out
 
 
---"aBR.out"--
+
+*--"aBR.out"--
 
        166 R-3m
     The matrix Kc2p
@@ -42,10 +43,10 @@ $$ pos2aBR > aBR.out
 
 (POTCAR: PAW_PBE Ca_sv 06Sep2000; PAW_PBE N 08Apr2002) 
 
-$$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt *)
+$$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data \*)
 
   
---"tqc.txt"--
+*--"tqc.txt"--
 
     Computed bands:  9 - 13
     GM: GM1+(1); GM2-(1); GM1+(1); GM3-(2); [5]
@@ -53,7 +54,9 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt *)
     F : F1+ (1); F2- (1); F2- (1); F1- (1); F1+ (1); [5]
     L : L1+ (1); L2- (1); L2- (1); L1- (1); L2- (1); [5]
 
---"tqc.data"--
+
+
+*--"tqc.data"--
 
     Computed bands:  9 - 13
     GM: GM1+(1); GM2-(1); GM1+(1); GM3-(2); [5]
