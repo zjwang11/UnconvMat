@@ -2,8 +2,8 @@
 
 * Website: http://tm.iphy.ac.cn/UnconvMat.html <br> 
 Refs: J. Gao, et al. https://arxiv.org/abs/2106.08035. <br>
-S. Nie, et al. Phys. Rev. B 103, 205133 (2021). <br>
-S. Nie, et al. "Six-fold Excitations in Electrides",  Phys. Rev. Research 3, L012028 (2021).
+S. Nie, et al. "Application of topological quantum chemistry in electrides", Phys. Rev. B 103, 205133 (2021). <br>
+S. Nie, et al. "Six-fold Excitations in Electrides", Phys. Rev. Research 3, L012028 (2021).
 
 ### 1. Standardize the PPOSCAR from phonopy and generate the aBRs (e.g. Ca2N)
 
