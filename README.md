@@ -7,7 +7,7 @@ $$ phonopy  --tolerance 0.01 --symmetry -c POSCAR > phonopy.out
 $$ pos2aBR > aBR.out
 
 
------aBR.out-----
+--"aBR.out"--
 
        166 R-3m
     The matrix Kc2p
@@ -36,7 +36,6 @@ $$ pos2aBR > aBR.out
       2   N-p @ 3a( 9)   -3m(20) >>>   BCS  Int. Sch.      Basis
                                     4  GM2-;GM2-; A2u;     z
                                     6  GM3-;GM3-; Eu ;     x,y
------aBR.out-----
 
 
 # 2. Run scf and band calculations in VASP for Maximial High-symmetry k-points 
@@ -45,19 +44,16 @@ $$ pos2aBR > aBR.out
 
 $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt *)
 
------tqc.txt-----
+  
+--"tqc.txt"--
+      
+    Computed bands:  9 - 13
+    GM: GM1+(1); GM2-(1); GM1+(1); GM3-(2); [5]
+    T : T1+ (1); T2- (1); T3- (2); T2- (1); [5]
+    F : F1+ (1); F2- (1); F2- (1); F1- (1); F1+ (1); [5]
+    L : L1+ (1); L2- (1); L2- (1); L1- (1); L2- (1); [5]
 
-  1 Computed bands:  9 - 13
-  
-  2 GM: GM1+(1); GM2-(1); GM1+(1); GM3-(2); [5]
-  
-  3 T : T1+ (1); T2- (1); T3- (2); T2- (1); [5]
-  
-  4 F : F1+ (1); F2- (1); F2- (1); F1- (1); F1+ (1); [5]
-  
-  5 L : L1+ (1); L2- (1); L2- (1); L1- (1); L2- (1); [5]
-  
------tqc.txt----
+--"tqc.data"--
 
 # 3. Solving the BR decomposition for the set of energy bands
 
