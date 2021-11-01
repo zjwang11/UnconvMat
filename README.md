@@ -69,5 +69,6 @@ $$ Paste "PPOSCAR" and "tqc.data" online.
 
 $$ Press the button "BR" to solve the eBR and aBR decomposition.
 
-   A1g@3a (N-s) + A2u@3a (N-Pz) + Eu@3a (N-Px,Py) + A1g@3b (an empty site)
+
+    A1g@3a (N-s) + A2u@3a (N-Pz) + Eu@3a (N-Px,Py) + A1g@3b (an empty site)
   
