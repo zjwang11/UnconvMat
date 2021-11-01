@@ -22,8 +22,8 @@ $$ pos2aBR > aBR.out
     0.000000    0.000000    0.000000
     \\
      SN  Mult. Wyck. Atom  s    p    d  Wyck. Name
-      1    2    7   20    2    6    0    6c   Ca
-      2    1    9    7    2    3    0    3a   N
+       1    2    7   20    2    6    0    6c   Ca
+       2    1    9    7    2    3    0    3a   N
     \\
      SN  Orb. @ Site     Symm.
       1  Ca-s @ 6c( 7)    3m(19) >>>   BCS  Int. Sch.      Basis
