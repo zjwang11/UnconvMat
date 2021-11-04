@@ -47,9 +47,7 @@ $$ pos2aBR > aBR.out (converting PPOSCAR to POSCAR_std)
 
 (POTCAR: PAW_PBE Ca_sv 06Sep2000; PAW_PBE N 08Apr2002) 
 
-$$ cp POSCAR_std POSCAR (for VASP calculations)
-
-$$ run VASP
+$$ cp POSCAR_std POSCAR; run VASP
 
 $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data when using only maximal HSKPs \*)
 
