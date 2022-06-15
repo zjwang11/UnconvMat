@@ -1,0 +1,52 @@
+4a
+Row name:
+GM1@4a
+GM2@4a
+Column name:
+GM1@8d
+C matrix before Smith
+  1
+  1
+C matrix after Smith
+  1
+  0
+L matrix
+  1  0
+ -1  1
+
+
+4b
+Row name:
+GM1@4b
+GM2@4b
+Column name:
+GM1@8d
+C matrix before Smith
+  1
+  1
+C matrix after Smith
+  1
+  0
+L matrix
+  1  0
+ -1  1
+
+
+4c
+Row name:
+GM1@4c
+GM2@4c
+Column name:
+GM1@8d
+C matrix before Smith
+  1
+  1
+C matrix after Smith
+  1
+  0
+L matrix
+  1  0
+ -1  1
+
+
+END

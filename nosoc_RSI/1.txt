@@ -1,0 +1,13 @@
+1a
+Row name:
+GM1@1a
+Column name:
+C matrix before Smith
+
+C matrix after Smith
+
+L matrix
+  1
+
+
+END
