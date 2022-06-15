@@ -1,0 +1,52 @@
+1a
+Row name:
+GM1@1a
+GM2@1a&GM3@1a
+Column name:
+GM1@3d
+C matrix before Smith
+  1
+  1
+C matrix after Smith
+  1
+  0
+L matrix
+  1  0
+ -1  1
+
+
+1b
+Row name:
+GM1@1b
+GM2@1b&GM3@1b
+Column name:
+GM1@3d
+C matrix before Smith
+  1
+  1
+C matrix after Smith
+  1
+  0
+L matrix
+  1  0
+ -1  1
+
+
+1c
+Row name:
+GM1@1c
+GM2@1c&GM3@1c
+Column name:
+GM1@3d
+C matrix before Smith
+  1
+  1
+C matrix after Smith
+  1
+  0
+L matrix
+  1  0
+ -1  1
+
+
+END

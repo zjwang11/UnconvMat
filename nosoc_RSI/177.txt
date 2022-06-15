@@ -1,0 +1,195 @@
+1a
+Row name:
+GM1@1a
+GM2@1a
+GM3@1a
+GM4@1a
+GM5@1a
+GM6@1a
+Column name:
+GM1@2e
+GM2@2e
+GM3@2e&GM5@2e
+GM4@2e&GM6@2e
+GM1@6j
+GM2@6j
+GM1@6l
+GM2@6l
+GM1@12n
+C matrix before Smith
+  1  0  0  0  1  0  1  0  1
+  1  0  0  0  0  1  0  1  1
+  0  1  0  0  1  0  0  1  1
+  0  1  0  0  0  1  1  0  1
+  0  0  2  0  1  1  1  1  2
+  0  0  0  2  1  1  1  1  2
+C matrix after Smith
+  1  0  0  0  0  0  0  0  0
+  0  1  0  0  0  0  0  0  0
+  0  0  1  0  0  0  0  0  0
+  0  0  0  2  0  0  0  0  0
+  0  0  0  0  2  0  0  0  0
+  0  0  0  0  0  2  0  0  0
+L matrix
+  1  0  0  0  0  0
+  1 -1  0  0  0  0
+  0  1 -1  0  0  0
+ -1  1 -1  1  0  0
+  0  0 -1 -1  1  0
+  0  0  1  1  0 -1
+
+
+1b
+Row name:
+GM1@1b
+GM2@1b
+GM3@1b
+GM4@1b
+GM5@1b
+GM6@1b
+Column name:
+GM1@2e
+GM2@2e
+GM3@2e&GM5@2e
+GM4@2e&GM6@2e
+GM1@6k
+GM2@6k
+GM1@6m
+GM2@6m
+GM1@12n
+C matrix before Smith
+  1  0  0  0  1  0  1  0  1
+  1  0  0  0  0  1  0  1  1
+  0  1  0  0  1  0  0  1  1
+  0  1  0  0  0  1  1  0  1
+  0  0  2  0  1  1  1  1  2
+  0  0  0  2  1  1  1  1  2
+C matrix after Smith
+  1  0  0  0  0  0  0  0  0
+  0  1  0  0  0  0  0  0  0
+  0  0  1  0  0  0  0  0  0
+  0  0  0  2  0  0  0  0  0
+  0  0  0  0  2  0  0  0  0
+  0  0  0  0  0  2  0  0  0
+L matrix
+  1  0  0  0  0  0
+  1 -1  0  0  0  0
+  0  1 -1  0  0  0
+ -1  1 -1  1  0  0
+  0  0 -1 -1  1  0
+  0  0  1  1  0 -1
+
+
+2c
+Row name:
+GM1@2c
+GM2@2c
+GM3@2c
+Column name:
+GM1@4h
+GM2@4h&GM3@4h
+GM1@6l
+GM2@6l
+GM1@12n
+C matrix before Smith
+  1  0  1  0  1
+  1  0  0  1  1
+  0  2  1  1  2
+C matrix after Smith
+  1  0  0  0  0
+  0  1  0  0  0
+  0  0  2  0  0
+L matrix
+  1  0  0
+  1 -1  0
+  1  1 -1
+
+
+2d
+Row name:
+GM1@2d
+GM2@2d
+GM3@2d
+Column name:
+GM1@4h
+GM2@4h&GM3@4h
+GM1@6m
+GM2@6m
+GM1@12n
+C matrix before Smith
+  1  0  1  0  1
+  1  0  0  1  1
+  0  2  1  1  2
+C matrix after Smith
+  1  0  0  0  0
+  0  1  0  0  0
+  0  0  2  0  0
+L matrix
+  1  0  0
+  1 -1  0
+  1  1 -1
+
+
+3f
+Row name:
+GM1@3f
+GM2@3f
+GM3@3f
+GM4@3f
+Column name:
+GM1@6i
+GM2@6i
+GM1@6j
+GM2@6j
+GM1@6l
+GM2@6l
+GM1@12n
+C matrix before Smith
+  1  0  1  0  1  0  1
+  1  0  0  1  0  1  1
+  0  1  1  0  0  1  1
+  0  1  0  1  1  0  1
+C matrix after Smith
+  1  0  0  0  0  0  0
+  0  1  0  0  0  0  0
+  0  0  1  0  0  0  0
+  0  0  0  2  0  0  0
+L matrix
+  1  0  0  0
+ -1  1  0  0
+  1 -1  1  0
+ -1  1 -1  1
+
+
+3g
+Row name:
+GM1@3g
+GM2@3g
+GM3@3g
+GM4@3g
+Column name:
+GM1@6i
+GM2@6i
+GM1@6k
+GM2@6k
+GM1@6m
+GM2@6m
+GM1@12n
+C matrix before Smith
+  1  0  1  0  1  0  1
+  1  0  0  1  0  1  1
+  0  1  1  0  0  1  1
+  0  1  0  1  1  0  1
+C matrix after Smith
+  1  0  0  0  0  0  0
+  0  1  0  0  0  0  0
+  0  0  1  0  0  0  0
+  0  0  0  2  0  0  0
+L matrix
+  1  0  0  0
+ -1  1  0  0
+  1 -1  1  0
+ -1  1 -1  1
+
+
+END

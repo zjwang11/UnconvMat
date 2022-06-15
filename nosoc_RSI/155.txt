@@ -1,0 +1,51 @@
+3a
+Row name:
+GM1@3a
+GM2@3a
+GM3@3a
+Column name:
+GM1@6c
+GM2@6c&GM3@6c
+GM1@9d
+GM2@9d
+GM1@18f
+C matrix before Smith
+  1  0  1  0  1
+  1  0  0  1  1
+  0  2  1  1  2
+C matrix after Smith
+  1  0  0  0  0
+  0  1  0  0  0
+  0  0  2  0  0
+L matrix
+  1  0  0
+  1 -1  0
+  1  1 -1
+
+
+3b
+Row name:
+GM1@3b
+GM2@3b
+GM3@3b
+Column name:
+GM1@6c
+GM2@6c&GM3@6c
+GM1@9e
+GM2@9e
+GM1@18f
+C matrix before Smith
+  1  0  1  0  1
+  1  0  0  1  1
+  0  2  1  1  2
+C matrix after Smith
+  1  0  0  0  0
+  0  1  0  0  0
+  0  0  2  0  0
+L matrix
+  1  0  0
+  1 -1  0
+  1  1 -1
+
+
+END
