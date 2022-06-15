@@ -1,0 +1,157 @@
+8a
+Row name:
+GM1@8a
+GM2@8a
+GM3@8a
+GM4@8a
+GM5@8a
+Column name:
+GM1@32e
+GM2@32e
+GM3@32e
+GM1@48f
+GM2@48f
+GM3@48f
+GM4@48f
+GM1@96g
+GM2@96g
+GM1@192i
+C matrix before Smith
+  1  0  0  1  0  0  0  1  0  1
+  0  1  0  0  1  0  0  0  1  1
+  0  0  1  1  1  0  0  1  1  2
+  1  0  1  1  0  1  1  2  1  3
+  0  1  1  0  1  1  1  1  2  3
+C matrix after Smith
+  1  0  0  0  0  0  0  0  0  0
+  0  1  0  0  0  0  0  0  0  0
+  0  0  1  0  0  0  0  0  0  0
+  0  0  0  1  0  0  0  0  0  0
+  0  0  0  0  0  0  0  0  0  0
+L matrix
+  1  0  0  0  0
+  1 -1  0  0  0
+ -1 -1  1  0  0
+  1  0  1 -1  0
+  1 -1  0 -1  1
+
+
+8b
+Row name:
+GM1@8b
+GM2@8b
+GM3@8b
+GM4@8b
+GM5@8b
+Column name:
+GM1@32e
+GM2@32e
+GM3@32e
+GM1@48f
+GM2@48f
+GM3@48f
+GM4@48f
+GM1@96g
+GM2@96g
+GM1@192i
+C matrix before Smith
+  1  0  0  1  0  0  0  1  0  1
+  0  1  0  0  1  0  0  0  1  1
+  0  0  1  1  1  0  0  1  1  2
+  1  0  1  1  0  1  1  2  1  3
+  0  1  1  0  1  1  1  1  2  3
+C matrix after Smith
+  1  0  0  0  0  0  0  0  0  0
+  0  1  0  0  0  0  0  0  0  0
+  0  0  1  0  0  0  0  0  0  0
+  0  0  0  1  0  0  0  0  0  0
+  0  0  0  0  0  0  0  0  0  0
+L matrix
+  1  0  0  0  0
+  1 -1  0  0  0
+ -1 -1  1  0  0
+  1  0  1 -1  0
+  1 -1  0 -1  1
+
+
+16c
+Row name:
+GM1+@16c
+GM1-@16c
+GM2+@16c
+GM2-@16c
+GM3+@16c
+GM3-@16c
+Column name:
+GM1@32e
+GM2@32e
+GM3@32e
+GM1@96g
+GM2@96g
+GM1@96h
+GM2@96h
+GM1@192i
+C matrix before Smith
+  1  0  0  1  0  1  0  1
+  0  1  0  0  1  1  0  1
+  0  1  0  0  1  0  1  1
+  1  0  0  1  0  0  1  1
+  0  0  1  1  1  1  1  2
+  0  0  1  1  1  1  1  2
+C matrix after Smith
+  1  0  0  0  0  0  0  0
+  0  1  0  0  0  0  0  0
+  0  0  1  0  0  0  0  0
+  0  0  0  1  0  0  0  0
+  0  0  0  0  0  0  0  0
+  0  0  0  0  0  0  0  0
+L matrix
+  1  0  0  0  0  0
+ -1  1  0  0  0  0
+  0  1 -1  0  0  0
+  2 -1  1  0 -1  0
+  0  0  0  0 -1  1
+ -1  1 -1  1  0  0
+
+
+16d
+Row name:
+GM1+@16d
+GM1-@16d
+GM2+@16d
+GM2-@16d
+GM3+@16d
+GM3-@16d
+Column name:
+GM1@32e
+GM2@32e
+GM3@32e
+GM1@96g
+GM2@96g
+GM1@96h
+GM2@96h
+GM1@192i
+C matrix before Smith
+  1  0  0  1  0  1  0  1
+  0  1  0  0  1  1  0  1
+  0  1  0  0  1  0  1  1
+  1  0  0  1  0  0  1  1
+  0  0  1  1  1  1  1  2
+  0  0  1  1  1  1  1  2
+C matrix after Smith
+  1  0  0  0  0  0  0  0
+  0  1  0  0  0  0  0  0
+  0  0  1  0  0  0  0  0
+  0  0  0  1  0  0  0  0
+  0  0  0  0  0  0  0  0
+  0  0  0  0  0  0  0  0
+L matrix
+  1  0  0  0  0  0
+ -1  1  0  0  0  0
+  0  1 -1  0  0  0
+  2 -1  1  0 -1  0
+  0  0  0  0 -1  1
+ -1  1 -1  1  0  0
+
+
+END
