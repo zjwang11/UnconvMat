@@ -1,7 +1,7 @@
-# Unconventioanl Materials （Unconv. Mat.）
+# Unconventioanl Materials/Obstructed atomic limits （Unconv. Mat.）
 
 * Website: http://tm.iphy.ac.cn/UnconvMat.html <br> 
-Refs: J. Gao, et al. https://arxiv.org/abs/2106.08035. <br>
+Refs: J. Gao, et al. "Unconventional materials: the mismatch between electronic charge centers and atomic positions" , Sci. Bul. 66, 667 (2022) https://doi.org/10.1016/j.scib.2021.12.025  <br>
       S. Nie, et al. "Application of topological quantum chemistry in electrides", Phys. Rev. B 103, 205133 (2021). <br>
       S. Nie, et al. "Six-fold Excitations in Electrides", Phys. Rev. Research 3, L012028 (2021).
 
@@ -70,7 +70,7 @@ $$ irvsp2 -sg 166 -nb 9 13 > outir2    (* generating tqc.txt and tqc.data when u
 
 ### 3. Solving the aBR/eBR decomposition online 
 
-Website: http://tm.iphy.ac.cn/UnconvMat.html <br> Ref: J. Gao, et al. https://arxiv.org/abs/2106.08035.
+Website: http://tm.iphy.ac.cn/UnconvMat.html <br> Ref: J. Gao, et al. "Unconventional materials: the mismatch between electronic charge centers and atomic positions" , Sci. Bul. 66, 667 (2022) https://doi.org/10.1016/j.scib.2021.12.025 
 
 $$ Paste "PPOSCAR" and "tqc.data" onto the website.
 
