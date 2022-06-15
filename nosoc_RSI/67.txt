@@ -1,0 +1,208 @@
+4a
+Row name:
+GM1@4a
+GM2@4a
+GM3@4a
+GM4@4a
+Column name:
+GM1@8h
+GM2@8h
+GM1@8j
+GM2@8j
+GM1@8l
+GM2@8l
+GM1@16o
+C matrix before Smith
+  1  0  1  0  1  0  1
+  0  1  0  1  1  0  1
+  1  0  0  1  0  1  1
+  0  1  1  0  0  1  1
+C matrix after Smith
+  1  0  0  0  0  0  0
+  0  1  0  0  0  0  0
+  0  0  1  0  0  0  0
+  0  0  0  2  0  0  0
+L matrix
+  1  0  0  0
+  0  1  0  0
+  1  0 -1  0
+  1  1 -1 -1
+
+
+4b
+Row name:
+GM1@4b
+GM2@4b
+GM3@4b
+GM4@4b
+Column name:
+GM1@8i
+GM2@8i
+GM1@8k
+GM2@8k
+GM1@8l
+GM2@8l
+GM1@16o
+C matrix before Smith
+  1  0  1  0  1  0  1
+  0  1  0  1  1  0  1
+  1  0  0  1  0  1  1
+  0  1  1  0  0  1  1
+C matrix after Smith
+  1  0  0  0  0  0  0
+  0  1  0  0  0  0  0
+  0  0  1  0  0  0  0
+  0  0  0  2  0  0  0
+L matrix
+  1  0  0  0
+  0  1  0  0
+  1  0 -1  0
+  1  1 -1 -1
+
+
+4c
+Row name:
+GM1+@4c
+GM1-@4c
+GM2+@4c
+GM2-@4c
+Column name:
+GM1@8h
+GM2@8h
+GM1@8m
+GM2@8m
+GM1@16o
+C matrix before Smith
+  1  0  1  0  1
+  1  0  0  1  1
+  0  1  0  1  1
+  0  1  1  0  1
+C matrix after Smith
+  1  0  0  0  0
+  0  1  0  0  0
+  0  0  1  0  0
+  0  0  0  0  0
+L matrix
+  1  0  0  0
+ -1  1  0  0
+  1 -1  1  0
+ -1  1 -1  1
+
+
+4d
+Row name:
+GM1+@4d
+GM1-@4d
+GM2+@4d
+GM2-@4d
+Column name:
+GM1@8i
+GM2@8i
+GM1@8m
+GM2@8m
+GM1@16o
+C matrix before Smith
+  1  0  1  0  1
+  1  0  0  1  1
+  0  1  0  1  1
+  0  1  1  0  1
+C matrix after Smith
+  1  0  0  0  0
+  0  1  0  0  0
+  0  0  1  0  0
+  0  0  0  0  0
+L matrix
+  1  0  0  0
+ -1  1  0  0
+  1 -1  1  0
+ -1  1 -1  1
+
+
+4e
+Row name:
+GM1+@4e
+GM1-@4e
+GM2+@4e
+GM2-@4e
+Column name:
+GM1@8j
+GM2@8j
+GM1@8n
+GM2@8n
+GM1@16o
+C matrix before Smith
+  1  0  1  0  1
+  1  0  0  1  1
+  0  1  0  1  1
+  0  1  1  0  1
+C matrix after Smith
+  1  0  0  0  0
+  0  1  0  0  0
+  0  0  1  0  0
+  0  0  0  0  0
+L matrix
+  1  0  0  0
+ -1  1  0  0
+  1 -1  1  0
+ -1  1 -1  1
+
+
+4f
+Row name:
+GM1+@4f
+GM1-@4f
+GM2+@4f
+GM2-@4f
+Column name:
+GM1@8k
+GM2@8k
+GM1@8n
+GM2@8n
+GM1@16o
+C matrix before Smith
+  1  0  1  0  1
+  1  0  0  1  1
+  0  1  0  1  1
+  0  1  1  0  1
+C matrix after Smith
+  1  0  0  0  0
+  0  1  0  0  0
+  0  0  1  0  0
+  0  0  0  0  0
+L matrix
+  1  0  0  0
+ -1  1  0  0
+  1 -1  1  0
+ -1  1 -1  1
+
+
+4g
+Row name:
+GM1@4g
+GM2@4g
+GM3@4g
+GM4@4g
+Column name:
+GM1@8m
+GM2@8m
+GM1@8n
+GM2@8n
+GM1@16o
+C matrix before Smith
+  1  0  1  0  1
+  0  1  0  1  1
+  1  0  0  1  1
+  0  1  1  0  1
+C matrix after Smith
+  1  0  0  0  0
+  0  1  0  0  0
+  0  0  1  0  0
+  0  0  0  0  0
+L matrix
+  1  0  0  0
+  0  1  0  0
+  1  0 -1  0
+ -1 -1  1  1
+
+
+END
