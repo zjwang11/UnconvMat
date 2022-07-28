@@ -1,7 +1,7 @@
 # Unconventioanl Materials/Obstructed atomic limits （Unconv. Mat.）
 
 * Website: http://tm.iphy.ac.cn/UnconvMat.html <br> 
-Refs: J. Gao, et al. "Unconventional materials: the mismatch between electronic charge centers and atomic positions" , Sci. Bul. 66, 667 (2022) https://doi.org/10.1016/j.scib.2021.12.025  <br>
+Refs: J. Gao, et al. "Unconventional materials: the mismatch between electronic charge centers and atomic positions" , Sci. Bul. 67(6), 598-608 (2022) https://doi.org/10.1016/j.scib.2021.12.025  <br>
       S. Nie, et al. "Application of topological quantum chemistry in electrides", Phys. Rev. B 103, 205133 (2021). <br>
       S. Nie, et al. "Six-fold Excitations in Electrides", Phys. Rev. Research 3, L012028 (2021).
 
